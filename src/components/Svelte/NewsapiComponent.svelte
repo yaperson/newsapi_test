@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
 
     let API_KEY = "fe23749356bf415eac5eb72223169056";
-    const endpoint = `https://newsapi.org/v2/everything?q=Authentification&from=2023-05-01&sortBy=popularity&apiKey=${API_KEY}`;
+    const endpoint = `https://newsapi.org/v2/everything?q=Authentification&apiKey=${API_KEY}`;
 
     let posts = [];
 
@@ -12,15 +12,12 @@
         return (posts = [data.articles]);
     });
 
-    export let name;
 </script>
 
 <main>
     <h1>News API - Authentification</h1>
-    <h1>Hello {name}!</h1>
     <p>
-        Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-        how to build Svelte apps.
+        News from newsapi, for france and with filter "Authentification".
     </p>
 
     <div class="articles">
