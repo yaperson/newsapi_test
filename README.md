@@ -1,4 +1,4 @@
-# Astro Starter Kit: Blog
+# Technology watch
 
 Welcome to our technology watch site dedicated to authentication! Here, you'll find the latest authentication-related news, trends, and developments, as well as relevant articles and resources to stay up-to-date in this ever-evolving field.
 
