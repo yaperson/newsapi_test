@@ -1,6 +1,8 @@
 # Astro Starter Kit: Blog
 
-This Web site call https://newsapi.org/
+Welcome to our technology watch site dedicated to authentication! Here, you'll find the latest authentication-related news, trends, and developments, as well as relevant articles and resources to stay up-to-date in this ever-evolving field.
+
+Our site uses the NewsAPI API to provide you with real-time information from various sources. NewsAPI is a powerful service that aggregates news from thousands of sources around the world, giving you comprehensive coverage of authentication-related news.
 
 ## 🚀 Project Structure
 
