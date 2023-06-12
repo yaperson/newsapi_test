@@ -32,6 +32,7 @@
                     <p>{ article.description }</p>
                     <img src="{article.urlToImage}" alt="">
                     <span>source : {article.source.name}</span>
+                    <span> |date : {article.publishedAt}</span>
                 {/if}    
                 {/each}
             </div>
